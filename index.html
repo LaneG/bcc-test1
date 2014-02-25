@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Brooklyn Copper Cookware</title> 
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<link href="styles/normalize.css" rel="stylesheet" type="text/css"> 	
+	<link href="styles/styles.css" rel="stylesheet" type="text/css"> 
+	<!-- for mailchimp -->
+	<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<!-- include fonts... -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300|Titillium+Web:600,400" rel="stylesheet" type="text/css">
+	<!-- footer fix for ie6 -->
+	<!—[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="styles/ie6.css" />
+	<![endif]—>
+
+</head>
+
+<body>
+	<div id="container"> 
+
+		<header role="header">
+			<div id="header-content">
+				<span><img src="images/bcc-logo-rev.png"></span>
+				<ul>
+					<li><a href="http://www.brooklyncoppercookware.com/blog/">blog</a></li>
+					<li><a href="mailto:help@brooklncoppercookware.com?Subject=Information%20request" target="_top">email</a></li>
+				</ul>
+			</div> <!-- close #header-content -->
+		</header> 
+
+		<div id="content">
+
+			<article role="article" class="left"> 
+				<h1>A message from Mac Kohler</h1>
+
+				<img class="right" src="images/mac-kohler-headshot.jpg" alt="picture of Mac Kohler"> <p>We are pausing our acceptance of new orders and intake of new retinning work until at least spring 2014. We've made this decision in spring 2013 based on receipt of a large number of new regular and custom orders during the 2012 holiday season, recent favorable publicity, a standing backlog of orders and retinning work, and persistent difficulties from Hurricane Sandy necessitating the relocation of our operations.</p> 
+
+				<h2>Sign up now for early notification</h2>
+				<p>If you'd like to be among the first to know when our products are available again, please <a href="http://eepurl.com/Dzs_H">sign up for our mailing list</a>. To get an idea of the changes coming to our line, have a look at our <a href="http://www.brooklyncoppercookware.com/blog/">blog</a> - generally, things are going to be more robust and representative of where we're busy designing them here in The Borough - new handles, thicker construction, heavier tinning. It's all good.</p>
+
+				<h2>Repairs and Retinning</h2>
+				<p>While the new line has been taking shape we've resumed our repair and restoration operations with new partners. Now our hand-tinning is not only heavier and smoother, we're able to turn-around projects much faster and we've cut our price by 33%. About all this we are very pleased and excited, so if you're ready to put that old copper back to work contact us and we will get it taken care of.</p>
+
+				<h2>Please keep in touch</h2>
+				<p>As we get everything else sorted out please feel free to <a href="mailto:help@brooklncoppercookware.com?Subject=Information%20request" target="_top">drop us a line</a> or call 347-866-2600 - let us know your wishes, needs, interests and enthusiasms. Even though the shopping cart is off-line for the moment, the doors remain totally open at BCC and, while we have a lot to do in coming months, we always love hearing from you.</p>
+
+				<p>This hiatus was a tough call for us and we hate to break our stride, but the changes forthcoming for BCC will allow us to do better, more timely work for a great many more passionate cooks. Better, we figure, to break stride than run too fast and trip ourselves up.</p> 
+
+				<p>Thanks as always,</p> 
+
+				<span><img src="images/signature.gif" alt="signed, Mac Kolher"></span>
+				<p>Mac Kohler, Founder<br />
+				Brooklyn Copper Cookware</p>
+			</article>  
+
+			<aside role="aside" class="right">
+				<h3>Sign up for our mailing list</h3>
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+				<form action="http://brooklyncoppercookware.us2.list-manage1.com/subscribe/post?u=0f77ba4955c9ab894faa3dbe8&amp;id=91d8a3a7cf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_0f77ba4955c9ab894faa3dbe8_91d8a3a7cf" value=""></div>
+					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</form>
+				</div>
+
+				<!--End mc_embed_signup-->
+			</aside> 
+
+			<aside role="aside" class="right">
+			<!-- http://viget.com/inspire/pulling-your-flickr-feed-with-jquery -->
+				<h3>Photo gallery</h3>
+    				<h3 id="title"></h3> 
+					<p id="description"></p> 
+					<p id="link"></p> 
+					<div id="images"></div> 
+					<div id="flickrNav"> 
+					    <a id="prev" href="#"><< Back</a>&nbsp;&nbsp;&nbsp;<a id="next" href="#">Next >></a>
+					</div>
+			</aside>  
+
+		</div> <!-- close #content -->
+
+		<!-- http://fortysevenmedia.com/blog/archives/making_your_footer_stay_put_with_css/P25/ -->
+
+		<div class="clearfooter"></div> 
+
+	</div>  <!-- close #container -->
+
+	<footer role="footer">
+		<div id="footer-content">
+			<p>&copy;2014 Brooklyn Copper Cookware, Inc. All Rights Reserved.</p>
+		</div>
+	</footer>
+
+    <!-- http://api.flickr.com/services/feeds/groups_pool.gne?id=1738156@N25&lang=en-us&format=json&jsoncallback=? -->
+    <!-- http://api.flickr.com/services/feeds/groups_pool.gne?id=675729@N22&lang=en-us&format=json&jsoncallback=? -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>
+	
+		$.getJSON("http://api.flickr.com/services/feeds/groups_pool.gne?id=2527476@N24&lang=en-us&format=json&jsoncallback=?", function(data){
+	    $.each(data.items, function(i,item){
+	    $("<img/>").attr("src", item.media.m).appendTo("#images")
+	    .wrap("<a href='" + item.link + "'></a>");
+	    });
+	    $('#images').cycle({
+	    fx: 'fade',
+	    speed: 'fast',
+	    timeout: 0,
+	    next: '#next',
+	    prev: '#prev'
+	    });
+    });	</script>
+    <script src="scripts/jquery.cycle.all.js"></script>
+</body>
+</html>
+
+

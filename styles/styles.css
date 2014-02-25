@@ -1,0 +1,192 @@
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	}
+
+body { 
+	background-color: #C5C09E;
+	color: #1D0C00;
+	font-size: 100.0%; 
+	font-family: 'Open Sans'Arial,sans-serif; 
+	line-height: 1.563; 
+	} 
+
+h1 { 
+	font-family: 'Titillium Web',Arial,sans-serif; 
+	line-height: 1.000; 
+	font-size: 2.500em; 
+	font-weight: 600; 
+	font-style: normal; 
+	} 
+
+h2 { 
+	font-family: 'Titillium Web',Arial,sans-serif;
+	line-height: 1.375; 
+	font-size: 1.500em; 
+	font-weight: normal; 
+	font-style: normal; 
+	} 
+
+h3 {
+	ffont-family: 'Titillium Web',Arial,sans-serif;
+	line-height: 1.375; 
+	font-size: 1.25em; 
+	font-weight: normal; 
+	font-style: normal; 
+	} 
+
+p { font-size: 1.000em; 
+	font-weight: 300; 
+	font-style: normal; 
+	}
+
+a:link {
+	color:#CD950C;
+	text-decoration: none;
+	}      
+
+a:visited {
+	color:#CD950C;
+	text-decoration: none;
+	} 
+
+a:hover {
+	color:#8B795E;
+	text-decoration: underline;
+	}  
+
+a:active {
+	color:#8B795E;
+	text-decoration: none;
+	}  
+
+img {
+	padding-left: 20px;
+	}
+
+.left {
+	float: left;
+	}	
+
+.right {
+	float: right;
+	}
+
+/* Content styles ------------------------------------ */
+
+#container {
+	/* border: 1px solid red; */
+	min-height: 100%;
+	position: relative;
+	margin-bottom: -50px;
+	overflow: auto; 
+	}
+
+#content {
+	/* border: 1px solid blue; */
+	margin: auto;
+	width: 900px;
+	overflow: auto; 
+	} 
+
+article {
+	background-color: #fff;
+	border: solid 2px #ddd; 
+	padding: 1em; 
+	width: 60%;
+	}	
+
+aside {
+	border: solid 2px #ddd; 
+	background-color: white;
+	margin-bottom: 25px;
+	overflow: auto; 
+	padding-left: 1em;
+	width: 29%;
+	}
+
+aside #flickrNav {
+	padding-left: 22%;
+	margin-bottom: 25px;
+	}
+
+/* styles for mailchimp */
+#mc_embed_signup {
+	background:#fff; 
+	clear:left; 
+	font:14px 
+	width:220px;}
+
+/* styles for photo gallery */
+#images { 
+	height: 180px; 
+	width: 240px; 
+	padding-bottom:5px;
+	overflow: hidden;
+	}
+
+#images img { 
+	border: none;
+	padding: 0;
+	} 
+
+/* Header styles ------------------------------------ */
+
+header {
+	background-color: #000;
+	height: 120px;
+	padding: 0 25px;
+	}
+
+#header-content {
+	width: 900px;
+	margin: auto;
+	}
+
+header img {
+	float: left; 
+	margin-top: 25px;
+	}
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+header a {
+	display: inline;
+	float: right;
+	padding: 80px 0 0 15px;
+	} 
+
+/* Footer styles ------------------------------------ */
+
+footer {
+	background-color: #000;
+	border-top: solid 2px #ddd; 
+	bottom: 0;
+	font-size: 12px;
+    height: 50px;
+    padding-left: 25px;
+    position: relative;
+    width: 100%;
+	}
+
+#footer-content {
+	width: 900px;
+	margin: auto;
+	}
+
+footer p {
+	color: #fff;
+	float: right;
+	}
+
+.clearfooter {
+	height: 50px;
+	clear: both;
+	}
+
+
